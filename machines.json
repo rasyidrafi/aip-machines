@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "tailscale": {
+    "dnsSuffix": "tail8da2f2.ts.net"
+  },
+  "machines": {
+    "bull": {
+      "tailscale": {
+        "hostname": "bull.tail8da2f2.ts.net",
+        "ipv4": "100.119.104.16",
+        "ipv6": "fd7a:115c:a1e0::6637:6811"
+      },
+      "ssh": {
+        "enabled": true,
+        "user": "bull",
+        "port": 22
+      }
+    },
+    "soy": {
+      "tailscale": {
+        "hostname": "soy.tail8da2f2.ts.net",
+        "ipv4": "100.86.230.51",
+        "ipv6": "fd7a:115c:a1e0::db37:e635"
+      },
+      "ssh": {
+        "enabled": true,
+        "user": "soy",
+        "port": 22
+      }
+    },
+    "cachyos-dell": {
+      "alias": "laptop-dell",
+      "tailscale": {
+        "hostname": "cachyos-dell.tail8da2f2.ts.net",
+        "ipv4": "100.110.187.126",
+        "ipv6": "fd7a:115c:a1e0::4b37:bb7f"
+      },
+      "ssh": {
+        "enabled": false
+      }
+    },
+    "cachyos-x8664": {
+      "alias": "laptop-infinix",
+      "tailscale": {
+        "hostname": "cachyos-x8664.tail8da2f2.ts.net",
+        "ipv4": "100.73.174.95",
+        "ipv6": "fd7a:115c:a1e0::8d37:ae60"
+      },
+      "ssh": {
+        "enabled": false
+      }
+    }
+  }
+}
